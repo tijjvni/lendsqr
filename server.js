@@ -22,4 +22,7 @@ app.prepare().then(() => {
     if (err) throw err
     console.log('Ready on http://localhost:5000')
   })
+}).catch( ex => {
+    console.error(ex.stack);
+    process.exit(1);
 })
