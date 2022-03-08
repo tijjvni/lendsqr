@@ -14,7 +14,7 @@ export default function Home() {
             
 
 
-            <div className="flex w-full bg-primary p-5 pb-10 flex-row text-white">
+            <div className="flex w-full bg-gray-500 p-5 pb-10 flex-row text-white">
                 <div className="flex-initital">
                     <i className="fa fa-home"></i>
                 </div>
@@ -24,7 +24,7 @@ export default function Home() {
                     </span>
                 </div>
                 <div className="flex-initial">
-                    <span className="bg-primary-light text-primary-dark font-semibold text-xs px-2 py-1 rounded">dentist</span>
+                    <span className="bg-gray-100 text-gray-700 font-semibold text-xs px-2 py-1 rounded">dentist</span>
                 </div>
             </div>
 
