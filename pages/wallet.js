@@ -14,28 +14,29 @@ export default function Home() {
             
 
 
-            <div class="flex w-full bg-primary p-5 pb-10 flex-row text-white">
-                <div class="flex-initital">
-                    <i class="fa fa-home"></i>
+            <div className="flex w-full bg-primary p-5 pb-10 flex-row text-white">
+                <div className="flex-initital">
+                    <i className="fa fa-home"></i>
                 </div>
-                <div class="flex-grow justify-center text-center">
-                    <span class="text-amber text-md font-bold">
+                <div className="flex-grow justify-center text-center">
+                    <span className="text-amber text-md font-bold">
                         N10,000
                     </span>
                 </div>
-                <div class="flex-initial">
-                    <span class="bg-primary-light text-primary-dark font-semibold text-xs px-2 py-1 rounded">dentist</span>
+                <div className="flex-initial">
+                    <span className="bg-primary-light text-primary-dark font-semibold text-xs px-2 py-1 rounded">dentist</span>
                 </div>
             </div>
 
-            <div class="flex mx-auto w-4/5 -mt-5 bg-white shadow-md  rounded-md p-2 text-gray">
-                <img alt="" class="w-12 h-12 rounded-full mr-3" src="https://source.unsplash.com/41x41/?portrait"/>
-                <div class="flex-col flex-grow justify-center px-2 py-1">
-                    <div class="flex justify-between items-center ">
-                        <h2 class="text-sm font-semibold">Tijjani Yusuf</h2>
+            <div className="flex mx-auto w-4/5 -mt-5 bg-white shadow-md  rounded-md p-2 text-gray">
+                <Image src="https://source.unsplash.com/41x41/?portrait" alt="Vercel Logo" width={12} height={12} />
+
+                <div className="flex-col flex-grow justify-center px-2 py-1">
+                    <div className="flex justify-between items-center ">
+                        <h2 className="text-sm font-semibold">Tijjani Yusuf</h2>
                     </div>
-                    <div class="flex pt-2  text-sm">
-                        <div class="flex items-center mr-auto">
+                    <div className="flex pt-2  text-sm">
+                        <div className="flex items-center mr-auto">
                             <span>tijjani@gmail.com</span>
                         </div>
                     </div>
