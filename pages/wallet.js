@@ -27,8 +27,8 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="flex flex-row">
-                    <div className="flex-grow justify-center text-center">
+                <div className="flex flex-row justify-center ">
+                    <div className="flex-1 justify-center text-center">
                         <div className="flex rounded-lg text-sm mb-2" role="group">
                             <button className="bg-gray-400 text-white hover:bg-gray-300 rounded-l-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">Fund</button>
                             <button className="bg-gray-400 text-white hover:bg-gray-300  px-4 py-2 mx-0 outline-none focus:shadow-outline">Transfer</button>
