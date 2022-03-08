@@ -28,10 +28,10 @@ export default function Home() {
                 </div>
 
                 <div className="flex">
-                    <div className="flex justify-center rounded-lg text-lg mb-4" role="group">
-                        <button className="bg-blue-500 text-white hover:bg-blue-400 rounded-l-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">First</button>
-                        <button className="bg-blue-500 text-white hover:bg-blue-400  px-4 py-2 mx-0 outline-none focus:shadow-outline">Second</button>
-                        <button className="bg-blue-500 text-white hover:bg-blue-400 rounded-r-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">Third</button>
+                    <div className="flex-1 justify-center rounded-lg text-sm mb-2" role="group">
+                        <button className="bg-gray-500 text-white hover:bg-gray-400 rounded-l-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">First</button>
+                        <button className="bg-gray-500 text-white hover:bg-gray-400  px-4 py-2 mx-0 outline-none focus:shadow-outline">Second</button>
+                        <button className="bg-gray-500 text-white hover:bg-gray-400 rounded-r-lg px-4 py-2 mx-0 outline-none focus:shadow-outline">Third</button>
                     </div>         
                 </div>
             </div>
