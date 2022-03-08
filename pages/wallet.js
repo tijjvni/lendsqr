@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Wallet.module.css'
 
 export default function Home() {
@@ -24,13 +23,11 @@ export default function Home() {
                     </span>
                 </div>
                 <div className="flex-initial">
-                    <span className="bg-gray-100 text-gray-700 font-semibold text-xs px-2 py-1 rounded">dentist</span>
+                    <span className="bg-gray-100 text-gray-700 font-semibold text-xs px-2 py-1 rounded">sign out</span>
                 </div>
             </div>
 
             <div className="flex mx-auto w-4/5 -mt-5 bg-white shadow-md  rounded-md p-2 text-gray">
-                <Image className="rounded-full mr-3" src="https://source.unsplash.com/41x41/?portrait" alt="Vercel Logo" width={12} height={12} />
-
                 <div className="flex-col flex-grow justify-center px-2 py-1">
                     <div className="flex justify-between items-center ">
                         <h2 className="text-sm font-semibold">Tijjani Yusuf</h2>
@@ -51,8 +48,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             >
-            Lendqr
-            </a> Task
+            Lendsqr Task
+            </a>
         </footer>
     </div>
   )
