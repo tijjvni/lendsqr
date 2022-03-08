@@ -12,13 +12,12 @@ export default function Home() {
         <main className={styles.main}>
             
 
-
             <div className="flex w-full bg-gray-500 p-5 pb-10 flex-row text-white">
                 <div className="flex-initital">
                     <i className="fa fa-home"></i>
                 </div>
                 <div className="flex-grow justify-center text-center">
-                    <span className="text-amber text-md font-bold">
+                    <span className="text-amber te(property) class: stringxt-md font-bold">
                         N10,000
                     </span>
                 </div>
