@@ -29,7 +29,7 @@ export default function Home() {
             </div>
 
             <div className="flex mx-auto w-4/5 -mt-5 bg-white shadow-md  rounded-md p-2 text-gray">
-                <Image src="https://source.unsplash.com/41x41/?portrait" alt="Vercel Logo" width={12} height={12} />
+                <Image className="rounded-full mr-3" src="https://source.unsplash.com/41x41/?portrait" alt="Vercel Logo" width={12} height={12} />
 
                 <div className="flex-col flex-grow justify-center px-2 py-1">
                     <div className="flex justify-between items-center ">
