@@ -13,6 +13,9 @@ app.prepare().then(() => {
 // add custom path here
 // server.post('/request/custom', custom);
 
+  const routes = require('./api/index.js');
+
+  server.use('/api/',routes);
   
   server.get('*', (req, res) => {
     return handle(req, res)
@@ -20,7 +23,7 @@ app.prepare().then(() => {
 
   server.listen(3000, (err) => {
     if (err) throw err
-    console.log('Ready on http://localhost:5000')
+    console.log('Ready on http://localhost:3000')
   })
 }).catch( ex => {
     console.error(ex.stack);
