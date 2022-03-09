@@ -7,18 +7,21 @@ module.exports = {
 
   
   development: {
-    client: 'postgresql',
+    client: 'mysql',
     connection: {
-      connectionString: process.env.DATABASE_URL,
-      ssl: { rejectUnauthorized: false },
+      host : 'localhost',
+      port : 3306,
+      user : 'lendsqr',
+      password : 'password',
+      database : 'lends'
     },
     pool: {
       min: 2,
       max: 10
     },
     migrations: {
-      tableName: 'knex_migrations'
-      
+      tableName: 'knex_migrations',
+      directory: __dirname + "/migrations",      
     }
   },
 
@@ -29,10 +32,10 @@ module.exports = {
       ssl: { rejectUnauthorized: false },
     },
     migrations: {
-      directory: __dirname + "/db/migrations",
+      directory: __dirname + "/migrations",
     },
     seeds: {
-      directory: __dirname + "/db/seeds",
+      directory: __dirname + "/seeds",
     },
   },  
 
